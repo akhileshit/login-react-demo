@@ -59,3 +59,13 @@ This react project is deployed at github:
   - ran "npm run deploy"
   - Done. Deployed.
 */ 
+
+
+
+/* 
+I added this as a "git submodule" to the super main repository (FE)
+  - since this is made as seperate repository in my github and git
+  - Commands:
+    D:\desk win11\FE>   git rm --cached ./JavaScript/REACT/login
+    D:\desk win11\FE>   git submodule add https://github.com/akhileshit/login-react-demo ./JavaScript/REACT/login
+*/
