@@ -44,3 +44,18 @@ export default function Login() {
     </div>
   )
 }
+
+
+/*
+This react project is deployed at github: 
+  - First created one repo in github for this react-proj
+  - pushed this proj to github
+  - Added these 3 lines in package.json
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+    },
+    "homepage": "https://akhileshit.github.io/login-react-demo/",
+  - ran "npm i gh-pages --save-dev"
+  - ran "npm run deploy"
+  - Done. Deployed.
+*/ 
